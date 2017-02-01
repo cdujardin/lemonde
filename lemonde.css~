@@ -1,0 +1,547 @@
+
+
+.menu1{
+	width: 100%;
+	background-color: gray;
+	background-size: 100%;
+	background: linear-gradient(to bottom, #193342, black);
+	height: 25px;
+}
+
+.menu1 li{
+	border-left : 1px solid black;
+}
+
+.menu1 li a {
+	font-size: 11px;
+	color: white;
+}
+
+.menu1 .yellow a{
+	background: gold;
+	color: black;
+	border: 0px;
+	height: 100%;
+	padding:4.5px;
+	font-size: 11px;
+}
+
+.menuderoulant{
+	color: black;
+	width: 100px;
+	margin-left: 90px;
+	font-size: 11px;
+}
+
+optgroup{
+	display: inline-block;
+	color: black;
+	margin-left: 5px;
+}
+
+/*menu2*/
+.menu2 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 15%;
+	padding-right: 15%;
+	height: 15px;
+	width: 100%
+}
+
+.caseloupe{
+
+            padding: 0;
+}
+
+.txtdroite{
+            margin-right: -5px;
+            padding: 0;
+}
+
+.search{
+	height: 25px;
+}
+
+.loupe img{
+	height: 13px;
+	font-size: 11px;
+	display: inline-block;
+	position : relative;
+	padding: 2px;
+}
+
+.loupe{
+	height:25px;
+	width: 30px;
+	padding: 0;
+}
+
+.form-control{
+	height:25px;
+	width: 100%;
+	font-size: 11px;
+}
+
+/*liens sociaux*/
+.icones img{
+	height: 20px;
+	display: inline-block;
+}
+.icones{
+	display: inline-block;
+}
+
+.liensdivers{
+	display: inline-block;
+}
+
+.liensdivers img{
+	height: 15px;
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.liensdivers a{
+	font-family: 'Roboto', sans-serif;
+	font-style: medium;
+	font-size: 12px;
+	color: #757575;
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+/*ligne*/
+hr{
+	margin:10px;
+}
+
+/*menu3*/
+.menu3 .logo{
+	height: 60px;
+	float: center;
+}
+
+.edition div{
+	display: inline-block;
+	margin-left: 5px;
+	margin-bottom:30px;
+}
+
+.edition a{
+	color: #757575;
+}
+
+/*menu multicolore*/
+.menumulticolor{
+	padding-right: 15%;
+	padding-left: 15%;
+	height: 35px;
+	width: 100.3%;
+	border-top-color: #e7e7e7;
+	border-top-style:  solid;
+	border-top-width: 3px;
+	float: center;
+	
+}
+
+#nav {
+	margin-top: -3px;
+	line-height: 30px;
+}
+
+#nav li{
+	width: auto;
+	height: 35px;
+	padding: 0px;
+	border-left: 1px solid #dddddd;
+}
+
+#nav li a{
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight : bold;
+	height:35px;
+	width: auto;
+	padding: 5px 10px;
+	
+	
+}
+
+
+#nav a:hover{
+	background-color: transparent;
+}
+
+/*Accueil*/
+.accueil{
+	border-top-color: #a2a9ae;
+	border-top-style:  solid;
+	border-top-width: 3px;
+	line-height: 25px;
+}
+
+.accueil:hover{
+	background-color: #464f57;
+	border-top-color: #464f57;
+}
+
+.home{
+	background: url('img/home.png');
+	background-size: 11px auto;
+	background-repeat: no-repeat;
+	background-position: center 8px;
+	line-height: 25px;
+	width: 20px;
+}
+
+.home:hover{
+	background-image: url('img/homewhite.png');
+	background-repeat: no-repeat;
+	background-size: 12px auto;
+}
+
+/*International*/
+.international{
+	border-top-color: #0386c3;
+	border-top-style:  solid;
+	border-top-width: 3px;
+	height: 30px;
+}
+
+.international a{
+	color: black;
+}
+
+.international:hover{
+	background-color: #0386c3;
+}
+
+.international a:hover{
+	color: white;
+}
+
+/*Politique*/
+.politique{
+	border-top-color:#1F0D67;
+	border-top-style:  solid;
+	border-top-width: 3px;
+	height: 30px;
+}
+
+.politique a{
+	color: black;
+}
+
+.politique:hover{
+	background-color:#1F0D67;
+}
+
+.politique a:hover{
+	color: white;
+}
+
+/*Société*/
+.societe{
+	border-top-color:#D50303;
+	border-top-style:  solid;
+	border-top-width: 3px;
+	height: 30px;
+}
+
+.societe a {
+	color: black;
+}
+
+.societe:hover{
+	background-color:#D50303;
+}
+
+.societe a:hover{
+	color: white;
+}
+
+/*Economie*/
+.economie{
+	border-top-color:#FE2F2F;
+	border-top-style:  solid;
+	border-top-width: 3px;
+}
+
+.economie a{
+	color: black;
+}
+
+.economie:hover{
+	background-color:#FE2F2F;
+}
+
+.economie a:hover{
+	color: white;
+}
+
+/*Culture*/
+.culture{
+	border-top-color:#F20559;
+	border-top-style:  solid;
+	border-top-width: 3px;
+}
+
+.culture a{
+	color: black;
+}
+
+.culture:hover{
+	background-color: #F20559;
+}
+
+.culture a:hover{
+	color: white;
+}
+
+
+/*Idées*/
+.idees{
+	border-top-color:#2E3942;
+	border-top-style:  solid;
+	border-top-width: 3px;
+}
+
+.idees a{
+	color: black;
+}
+
+.idees:hover{
+	background-color: #2E3942;
+}
+
+.idees a:hover{
+	color: white;
+}
+
+/*Planete*/
+.planete{
+	border-top-color:#30932E;
+	border-top-style:  solid;
+	border-top-width: 3px;
+}
+
+.planete a{
+	color: black;
+}
+
+.planete:hover{
+	background-color: #30932E;
+}
+
+.planete a:hover{
+	color: white;
+}
+
+
+/*Sport*/
+.sport{
+	border-top-color:#6FAA12;
+	border-top-style:  solid;
+	border-top-width: 3px;
+}
+
+.sport a{
+	color: black;
+}
+
+.sport:hover{
+	background-color: #6FAA12;
+}
+
+.sport a:hover{
+	color: white;
+}
+
+/*Science*/
+.sciences{
+	border-top-color:#0CB4AE;
+	border-top-style:  solid;
+	border-top-width: 3px;
+}
+
+.sciences a {
+	color: black;
+}
+
+.sciences:hover{
+	background-color: #0CB4AE;
+}
+
+.sciences a:hover{
+	color: white;
+}
+
+/*Pixels*/
+.pixels{
+	border-top-color:#06B586;
+	border-top-style:  solid;
+	border-top-width: 3px;
+}
+
+.pixels a{
+	color: black;
+}
+
+.pixels:hover{
+	background-color: #06B586;
+}
+
+.pixels a:hover{
+	color: white;
+}
+
+/*Campus*/
+.campus{
+	border-top-color:#FF6E17;
+	border-top-style:  solid;
+	border-top-width: 3px;
+}
+
+.campus a {
+	color: black;
+}
+
+.campus:hover{
+	background-color: #FF6E17;
+}
+
+.campus a:hover{
+	color: white;
+}
+
+/*Mag*/
+.m-mag{
+	border-top-color: #2E3942;
+	border-top-style:  solid;
+	border-top-width: 3px;
+	color: black;
+	width: 100px;
+	background: transparent;
+	line-height: 28px;
+
+}
+
+.m-mag div{
+	display: inline-block;
+	padding: 0px 0px;
+
+}
+
+#maglien{
+	padding: 0px 0px;
+}
+
+.m-mag div a{
+	color: black;
+	text-decoration: none; 
+}
+
+.m-mag div a:hover{
+	color: black;
+}
+
+.m-mag img{
+	height:10px;
+	padding-left: 10px;
+}
+
+/*Abonnées*/
+.abonnes{
+	border-top-color: #CCAA00;
+	border-top-style:  solid;
+	border-top-width: 3px;
+	background-color: #ffc600;
+}
+
+.abonnes a {
+	color: black;
+}
+
+.abonnes:hover{
+	background-color: #FFD233;
+}
+
+.abonnes a:hover{
+	color: #675600;
+	background-color: #FFD233;
+}
+
+/*Corp de texte (partie grise)*/
+#contenu{
+	background: #eeeeee;
+	padding-top:15px;
+
+}
+
+/*barre du fils d'ariane*/
+.filsariane{
+	line-height: 35px;
+            padding-left: 15%;
+	padding-right: 15%;
+	width:99.5%;
+}
+
+.filsariane ul{
+	background: linear-gradient(to bottom, #2A2E40, black);
+	height: 35px;
+	width: 100%;
+	
+}
+
+#navencemoment {
+	margin-top: -3px;
+	line-height: 35px;
+}
+
+#navencemoment li{
+
+	height: 35px;
+	padding: 0px;
+}
+
+#navencemoment li a{
+            color: white;
+	font-size: 12px;
+	font-style : bolder;
+	height:35px;
+	padding: 10px 10px;	
+}
+
+#navencemoment a:hover{
+	background-color: transparent;
+}
+
+.encemoment{
+	padding: 0px 6px;
+	background: url('img/fdflechered.png');
+	background-size: auto 37px;
+	background-repeat: no-repeat;
+	background-position: right -2px;
+	height: 35px;
+	width: 105px;
+}
+
+.flecherouge{
+	color: white;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight : bold;	
+	padding-left: 6px;
+}
+
+
+
+
+
+
+
+
+

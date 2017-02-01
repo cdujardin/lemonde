@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Le monde</title>
+		<link rel="stylesheet"  href="../bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="lemonde.css" />
+		 <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet"/> 
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12-fluid menu1">
+					<ul class="list-inline text-center">
+						<li>
+							<a href="www.lemonde.fr">Le Monde</a>
+						</li>
+						<li>
+							<a href="http://www.telerama.fr/">Télérama</a>
+						</li>
+						<li>
+							<a href="http://www.monde-diplomatique.fr/">Le Monde diplomatique</a>
+						</li>
+						<li>
+							<a href="http://www.huffingtonpost.fr/">Le Huffington Post</a>
+						</li>
+						<li>
+							<a href="http://www.courrierinternational.fr/">Courrier international</a>
+						</li>
+						<li>
+							<a href="http://www.lavie.fr/">La Vie</a>
+						</li>
+						<li>
+							<a href="http://www.tempsreel.nouvelobs.com/">L'Obs</a>
+						</li>
+						<li>
+							<select class="menuderoulant" name="Services Le Monde">
+								<optgroup label="Boutique Le Monde">
+									<option value="accueil">Accueil</option>
+									<option value="hors-serie">Hors-Série</option>
+									<option value="livres">Livres</option>
+									<option value="dvd">DVD</option>
+									<option value="cd">CD</option>
+									<option value="unesmonde">Unes du Monde</option>
+									<option value="loisirpapeterie">Loisirs & Papeterie</option>
+									<option value="promotion">Promotion</option>
+								</optgroup>
+								<optgroup label="Partenaires Le Monde">
+									<option value="abovin">Abonnement vin</option>
+									<option value="annoncesauto">Annonces auto</option>
+									<option value="annoncesemploi">Annonces Emploi</option>
+									<option value="annoncesimmo">Annonces Imo</option>
+									<option value="codespromo">Codes Promo</option>
+									<option value="citations">Citations</option>
+									<option value="comparateurbanque">Comparateur de banques</option>
+									<option value="coursanglais">Cours d'anglais</option>
+									<option value="formationpro">Formation Professionnels</option>
+									<option value="jardinage">Jardinage</option>
+									<option value="artanecdote">L'art par l'anecdote</option>
+									<option value="modelelettre">Modèle de lettres</option>
+									<option value="paroleschanson">Paroles de chansons</option>
+									<option value="priximmo">Prix de l'immobilier</option>
+									<option value="shopping">Shopping</option> 
+									<option value="ventesenchere">Ventes aux enchères</option>
+								</optgroup>
+							</select>
+						</li> 
+						<li class="yellow">
+							<a  title="Abonnez-vous au Monde à partir de 1 €" href="http://abo.lemonde.fr" >
+							S'abonner au Monde à partir de 1 €
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div> <!--Fin menu1-->
+			<!--menu2-->
+			<div class="row ">
+				<div class="col-md-12-fluid menu2 ">
+					<div class="col-md-5 caseloupe">
+						<div class="input-group search">
+							<div class="input-group-addon loupe" >
+								<img src="img/loupe.png" alt="loupe" />
+							</div>
+							<input type="search" class="form-control" placeholder="Rechercher" />
+						</div>
+					</div>
+					<div class="col-md-7 text-right txtdroite">
+						<div class="icones">
+							<img src="img/fb.png" alt="fb"/>
+							<img src="img/twitter.png" alt="twitter"/>
+							<img src="img/g+.png" alt="google plus"/>
+							<img src="img/instagram.png" alt="instagram"/>
+						</div>
+						<div class=" liensdivers">
+							<a class="lien_promo" href="www.lemonde.fr/emploi/">
+								<img src="img/bag.png" alt="bag"/>
+								Emploi
+							</a>
+							<a class="nl"  href="https://secure.lemonde.fr/sfuser/newsletters">
+								<img src="img/mail.png" alt="mail"/>
+								Newsletters
+							</a>
+							<a class="inscrire"  href="https://secure.lemonde.fr/sfuser/register">
+								<img src="img/adco.png" alt="adco"/>
+								S'inscrire
+							</a>
+							<a class="identifier"  href="https://secure.lemonde.fr/sfuser/connexion">
+								<img src="img/co.png" alt="co"/>
+								Connexion
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!--fin menu2-->
+		<!--logo-->
+			<hr/>
+			<div class="row">
+				<div class="col-md-12-fluid menu3 text-center">
+					<img class="logo" src="img/lemonde.png" alt="logo"/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12-fluid text-center edition">
+					<div>
+						<select>
+							<option>Édition globale</option>
+							<option>Édition afrique</option>
+						</select>
+					</div>
+					<div >
+						<a href="lemonde.fr/actualite-en-continu/" title="Suivre l'actualité en continu sur le Monde.fr" class="date_maj">Mise à jour à 15h15</a>
+					</div>
+				</div>
+			</div>
+			<!--menu multicolore-->
+			<div class="row">
+			            <div class="col-md-12-fluid texte-center menumulticolor">
+				            <ul class="nav  navbar-nav navbar-center " id="nav">
+					            <li class="accueil">
+						            <a class="home" href="lemonde.fr"></a>
+					            </li>
+					            <li class="international">
+						            <a  href="lemonde.fr/international/">International</a>
+					            </li>
+					            <li class="politique">
+						            <a  href="lemonde.fr/politique/">Politique</a>
+					            </li>
+					            <li class="societe">
+						            <a  href="lemonde.fr/societe/">Société</a>
+					            </li>
+					            <li class="economie">
+						            <a href="lemonde.fr/economie/">Éco</a>
+					            </li>
+					            <li class="culture">
+						            <a  href="lemonde.fr/culture/">Culture</a>
+					            </li>
+					            <li class="idees">
+						            <a  href="lemonde.fr/idees/">Idées</a>
+					            </li>
+					            <li class="planete">
+						            <a  href="lemonde.fr/planete/">Planète</a>
+					            </li>
+					            <li class="sport">
+						            <a href="lemonde.fr/sport/">Sport</a>
+					            </li>
+					            <li class="sciences">
+						            <a href="lemonde.fr/sciences/">Sciences</a>
+					            </li>
+					            <li class="pixels">
+						            <a  href="lemonde.fr/pixels/">Pixels</a>
+					            </li>
+					            <li class="campus">
+						            <a  href="lemonde.fr/campus/">Campus</a>
+					            </li>
+					            <li class="m-mag">
+						            <div><img src="img/mag.png" alt="logo mag" /></div>
+						            <div id="maglien"  ><a href="lemonde.fr/m-le-mag/">Le Mag</a></div>
+					            </li>
+					            <li class="abonnes">
+						            <a href="lemonde.fr/teaser/presentation.html">Édition Abonnés</a>
+					            </li>
+				            </ul>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid" >
+			<!--fils d'ariane-->
+			<div class="row " id="contenu">
+				<div class="col-md-12-fluid texte-center filsariane">
+				            <ul class="nav  navbar-nav navbar-center " id="navencemoment">
+						<li class="encemoment">
+							<span class="flecherouge">En ce moment</span>
+						</li>
+                                                                        <li class="barreencemoment"><a href="/turquie/">Turquie</a></li>
+                                                                        <li class="barreencemoment"><a href="/syrie/">Syrie</a></li>
+                                                                        <li class="barreencemoment"><a href="/primaire-de-la-gauche/">Primaire de la gauche</a></li>
+                                                                        <li class="barreencemoment"><a href="/pollution/">Pollutions</a></li>
+                                                                        <li class="barreencemoment"><a href="/francaises-francais/">Françaises, Français</a></li>
+                                                                        <li class="barreencemoment"><a href="/les-decodeurs/">Les décodeurs</a></li>
+                                                                        <li class="barreencemoment"><a href="/big-browser/">Big Browser</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row global une_edito"><!-- global - haut une-->
+                                                 <div class="container_18 clearfix">
+
+                                                             <div class="grid_12 alpha col_gauche">
+                                                                         <section class="une_normale titres" data-vr-zone="titres_principaux"><div class="titres_edito">
+
+                                                                                     <article class="titre_une" data-vr-contentbox="" data-back-id="5058462:article:eyJ0aXRyZSI6IkVkdWNhdGlvblx1MDBhMDogbGUgcHJpdlx1MDBlOSBkZSBwbHVzIGVuIHBsdXMgcHJpc1x1MDBlOSJ9">
+                                                                                                <a href="/education/article/2017/01/06/education-les-reformes-de-la-gauche-ont-elles-fait-le-jeu-du-prive_5058462_1473685.html">
+                                                                                                            <h1 class="tt3  ">      Education&nbsp;: le privé de plus en plus prisé
+                                                                                                                        <span class="nb_reactions mgl5"><span class="pic"></span>9</span>
+                                                                                                            </h1>   
+                                                                                                            <div class="img_tt_chapo">
+                                                                                                                        <img data-lazyload="false" data-item-type="article" src="http://s1.lemde.fr/image/2017/01/06/644x322/5058461_3_af3d_ecole-catholique-gerson-a-paris_37752c5a27115d7162c6136dcbf9036e.jpg" alt="Ecole catholique Gerson, à Paris." title="PIERRE ANDRIEU / AFP" class="lazy-retina" width="644" height="322">   
+                                                                                                            </div>
+                                                                                                 </a>
+                                                                                                <p class="description">Le nombre d’élèves accueillis dans les établissements sous contrat a augmenté de manière significative, selon les statistiques de la rentrée 2016.</p>
+                                                                                    </article>
+
+                                                                                    <ul class="liste_carre liste_une">
+                                                                                                <li class="ie_pair">
+                                                                                                            <a href="/election-presidentielle-2017/article/2016/12/02/francois-hollande-et-l-ecole-le-grand-malentendu_5042198_4854003.html" class="txt4 " data-vr-contentbox="">
+                                                                                                                        François Hollande et l’école&nbsp;: le grand malentendu   
+                                                                                                                        <span class="nb_reactions mgl5">
+                                                                                                                                    <span class="pic"></span>
+                                                                                                                                    30
+                                                                                                                         </span>
+                                                                                                             </a>
+                                                                                                </li>
+                                                                                                <li class="ie_pair">
+                                                                                                            <a href="/politique/article/2016/11/22/famille-ecole-les-programmes-de-fillon-et-juppe-sur-les-questions-societales_5035925_823448.html" class="txt4 " data-vr-contentbox="">
+                                                                                                                        Famille, école&nbsp;: les programmes de Fillon et Juppé sur les questions de société   
+                                                                                                                        <span class="nb_reactions mgl5">
+                                                                                                                                    <span class="pic"> </span>
+                                                                                                                                    14
+                                                                                                                        </span>
+                                                                                                            </a>
+                                                                                                </li>
+                                                                                                <li class="ie_pair" data-isrestricted="">
+                                                                                                            <a href="/education/article/2016/10/18/la-gauche-au-risque-d-une-droitisation-du-debat-educatif_5015660_1473685.html" class="txt4 " data-vr-contentbox="">
+                                                                                                                        La gauche au risque d’une « droitisation » du débat éducatif   
+                                                                                                                        <span class="nb_reactions mgl5">
+                                                                                                                                    <span class="pic">
+                                                                                                                                    </span>
+                                                                                                                                    6
+                                                                                                                        </span>
+                                                                                                            </a>
+                                                                                                </li>
+                                                                                                <li class="ie_pair" data-isrestricted="">
+                                                                                                            <a href="/election-presidentielle-2017/article/2016/10/18/l-ecole-dont-reve-la-droite_5015430_4854003.html" class="txt4 " data-vr-contentbox="">
+                                                                                                                        La droite entend rétablir l’« autorité » à l’école   
+                                                                                                                         <span class="nb_reactions mgl5">
+                                                                                                                                    <span class="pic">
+                                                                                                                                    </span>
+                                                                                                                                    48
+                                                                                                                        </span>
+                                                                                                            </a>
+                                                                                                </li>
+                                                                                    </ul>
+
+                                                                                    <div class="clearfix bordt6 bord_gris_clair padt16 titres_hauts">
+                                                                                                   <article class="grid_6 alpha img_tt_chapo voir_plus" data-vr-contentbox="">
+                                                                                                              <a href="/les-decodeurs/article/2017/01/05/49-3-securite-decheance-les-affirmations-de-manuel-valls-decryptees_5058413_4355770.html" data-back-id="5058413:article:eyJ0aXRyZSI6IjQ5LjMsIHNcdTAwZTljdXJpdFx1MDBlOSwgZFx1MDBlOWNoXHUwMGU5YW5jZVx1MDBhMDogbGVzIGFmZmlybWF0aW9ucyBkZSBNYW51ZWwgVmFsbHMgZFx1MDBlOWNyeXB0XHUwMGU5ZXMifQ==">
+                                                                                                                        <img data-lazyload="false" data-item-type="article" src="http://s2.lemde.fr/image/2017/01/06/312x156/5058564_3_1c28_manuel-valls-en-decembre_d54a7c5b67f5a8a4235192cae0296c6c.jpg" alt="Manuel Valls en décembre." title="XAVIER LEOTY / AFP" class="lazy-retina" width="312" height="156">            
+                                                                                                                        <h2 class="tt6 marqueur_decodeurs ">
+                                                                                                                        49.3, sécurité, déchéance&nbsp;: les affirmations de Manuel Valls décryptées
+                                                                                                                        <span class="nb_reactions mgl5">
+                                                                                                                                    <span class="pic">
+                                                                                                                                    </span>
+                                                                                                                                    8
+                                                                                                                        </span>
+                                                                                                                         </h2>
+                                                                                                              </a>
+                                                                                                            <p class="txt3">Le candidat à la primaire de la gauche était l’invité de «&nbsp;L’Emission politique&nbsp;» sur France 2, jeudi. Retour sur certaines de ses déclarations.</p>
+                                                                                                            <ul style="display: none;" class="liste_carre repliable">
+                                                                                                                        <li>
+                                                                                                                                    <a href="/election-presidentielle-2017/article/2017/01/06/manuel-valls-une-campagne-sur-la-defensive_5058447_4854003.html" class="txt3 " data-back-id="5058447:article:eyJ0aXRyZSI6Ik1hbnVlbCBWYWxscywgdW5lIGNhbXBhZ25lIHN1ciBsYSBkXHUwMGU5ZmVuc2l2ZSJ9">
+                                                                                                                                                Manuel Valls, une campagne sur la défensive   
+                                                                                                                                                  <span class="nb_reactions mgl5">
+                                                                                                                                                            <span class="pic"></span>
+                                                                                                                                                            28
+                                                                                                                                                </span>
+                                                                                                                                    </a>
+                                                                                                                        </li>
+                                                                                                                         <li>
+                                                                                                                                    <a href="/election-presidentielle-2017/article/2017/01/06/49-3-social-reformisme-laicite-ce-qu-il-faut-retenir-de-manuel-valls-dans-l-emission-politique_5058417_4854003.html" class="txt3 " data-back-id="5058417:article:eyJ0aXRyZSI6IjQ5LjMsIFx1MDBhYlx1MDBhMHNvY2lhbCByXHUwMGU5Zm9ybWlzbWVcdTAwYTBcdTAwYmIsIGxhXHUwMGVmY2l0XHUwMGU5XHUyMDI2IENlIHF1XHUyMDE5aWwgZmF1dCByZXRlbmlyIGRlIE1hbnVlbCBWYWxscyBkYW5zIFx1MDBhYlx1MDBhMExcdTIwMTlFbWlzc2lvbiBwb2xpdGlxdWVcdTAwYTBcdTAwYmIifQ==">Ce qu’il faut retenir de Manuel Valls dans «&nbsp;L’Emission politique&nbsp;»   
+                                                                                                                                                  <span class="nb_reactions mgl5">
+                                                                                                                                                            <span class="pic">
+                                                                                                                                                            </span>
+                                                                                                                                                            28
+                                                                                                                                                </span>
+                                                                                                                                    </a>
+                                                                                                                        </li>
+                                                                                                                        <li>
+                                                                                                                                    <a href="/les-decodeurs/article/2017/01/05/primaire-de-la-gauche-les-incertitudes-des-sondages_5058307_4355770.html" class="txt3 marqueur_decodeurs" data-back-id="5058307:article:eyJ0aXRyZSI6IlByaW1haXJlIGRlIGxhIGdhdWNoZVx1MDBhMDogbGVzIGluY2VydGl0dWRlcyBkZXMgc29uZGFnZXMifQ==">Primaire de la gauche&nbsp;: les incertitudes des sondages   
+                                                                                                                                                  <span class="nb_reactions mgl5">
+                                                                                                                                                            <span class="pic"></span>
+                                                                                                                                                            16
+                                                                                                                                                </span>
+                                                                                                                                    </a>
+                                                                                                                        </li>
+                                                                                                            </ul>
+                                                                                     <span class="deplier ferme">afficher la suite des articles
+                                                                                                <span></span>
+                                                                                    </span>
+                                                                         </article>
+                                                                        <article class="grid_6 omega img_tt_chapo voir_plus" data-vr-contentbox="">
+                                                                                 <a href="/police-justice/article/2017/01/06/faut-il-rendre-les-crimes-sexuels-sur-les-mineurs-imprescriptibles_5058459_1653578.html" data-back-id="5058459:article:eyJ0aXRyZSI6IkZhdXQtaWwgcmVuZHJlIGxlcyBjcmltZXMgc2V4dWVscyBzdXIgbGVzIG1pbmV1cnMgaW1wcmVzY3JpcHRpYmxlc1x1MDBhMD8ifQ==">
+                                                                                                <img data-lazyload="false" data-item-type="article" src="http://s1.lemde.fr/image/2017/01/06/312x156/5058512_3_a153_un-proces-pour-pedophilie-a-huis-clos_d84654b002f8a8652e933e1d30c3e16d.jpg" alt="Un procès pour pédophilie à huis clos." title="JEFF PACHOUD / AFP" class="lazy-retina" width="312" height="156">            
+                                                                                                <h2 class="tt6  ">
+                                                                                                            Faut-il rendre les crimes sexuels sur les mineurs imprescriptibles&nbsp;?
+                                                                                                </h2>
+                                                                                 </a>
+                                                                                     <p class="txt3">L’animatrice Flavie Flament et un ancien magistrat sont chargés par la ministre des familles, Laurence Rossignol, de piloter une mission de consensus sur le sujet.</p>
+                                                                                             <ul style="display: none;" class="liste_carre repliable">
+                                                                                                            <li>
+                                                                                                                        <a href="/societe/article/2016/11/25/flavie-flament-se-voit-confier-une-mission-sur-le-delai-de-prescription-pour-le-viol_5038260_3224.html" class="txt3 " data-back-id="5038260:article:eyJ0aXRyZSI6IkZsYXZpZSBGbGFtZW50IHNlIHZvaXQgY29uZmllciB1bmUgbWlzc2lvbiBzdXIgbGUgZFx1MDBlOWxhaSBkZSBwcmVzY3JpcHRpb24gcG91ciBsZSB2aW9sIn0=">
+                                                                                                                                       Flavie Flament se voit confier une mission sur le délai de prescription pour le viol   
+                                                                                                                        </a>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                        <a href="/disparitions/article/2016/11/26/david-hamilton-emporte-ses-secrets-dans-sa-tombe_5038429_3382.html" class="txt3 " data-back-id="5038429:article:eyJ0aXRyZSI6IkRhdmlkIEhhbWlsdG9uIGVtcG9ydGUgc2VzIHNlY3JldHMgZGFucyBsYSB0b21iZSJ9">
+                                                                                                                                    David Hamilton emporte ses secrets dans la tombe   
+                                                                                                                        </a>
+                                                                                                            </li>
+                                                                                             </ul>
+                                                                                             <span class="deplier ferme">afficher la suite des articles<span></span></span>
+                                                                              </article>
+                                                                        <article class="grid_6 alpha img_tt_chapo voir_plus" data-vr-contentbox="">
+                                                                                    <a href="/police-justice/article/2017/01/06/un-enseignant-chercheur-relaxe-apres-avoir-aide-des-migrants_5058581_1653578.html" data-back-id="5058581:article:eyJ0aXRyZSI6IlVuIGVuc2VpZ25hbnQtY2hlcmNoZXVyIHJlbGF4XHUwMGU5IGFwclx1MDBlOHMgYXZvaXIgYWlkXHUwMGU5IGRlcyBtaWdyYW50cyJ9">
+                                                                                                <img data-lazyload="false" data-item-type="article" src="http://s2.lemde.fr/image/2017/01/06/312x156/5058592_3_be3b_manifestation-le-23-novembre-en-soutien-a_afab971a1ebd37673350f1d66f1a3b68.jpg" alt="Manifestation le 23 novembre en soutien à Pierre Alain Mannoni." title="YANN COATSALIOU / AFP" class="lazy-retina" width="312" height="156">            
+                                                                                                <h2 class="tt6  ">
+                                                                                                            Un enseignant-chercheur relaxé après avoir aidé des migrants
+                                                                                                </h2>
+                                                                                    </a>
+                                                                                    <p class="txt3">
+                                                                                                Le tribunal correctionnel de Nice a accordé à Pierre-Alain Mannoni l’immunité pénale, estimant qu’il avait agi pour préserver la dignité des personnes convoyées.
+                                                                                    </p>
+                                                                                    <ul style="display: none;" class="liste_carre repliable">
+                                                                                                <li>
+                                                                                                            <a href="/police-justice/article/2017/01/04/huit-mois-avec-sursis-requis-contre-un-agriculteur-juge-pour-avoir-aide-des-migrants_5057818_1653578.html" class="txt3 " data-back-id="5057818:article:eyJ0aXRyZSI6Ikh1aXQgbW9pcyBhdmVjIHN1cnNpcyByZXF1aXMgY29udHJlIHVuIGFncmljdWx0ZXVyIGp1Z1x1MDBlOSBwb3VyIGF2b2lyIGFpZFx1MDBlOSBkZXMgbWlncmFudHMifQ==">
+                                                                                                                        Huit mois avec sursis requis pour avoir aidé des migrants   
+                                                                                                            </a>
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                            <a href="/societe/article/2016/11/24/entre-italie-et-france-la-vallee-de-la-roya-solidaire-avec-les-migrants-a-perdu-son-insouciance_5036885_3224.html" class="txt3 " data-back-id="5036885:article:eyJ0aXRyZSI6IkEgbGEgZnJvbnRpXHUwMGU4cmUgaXRhbGllbm5lLCBsYSB2YWxsXHUwMGU5ZSBkZSBsYSBSb3lhIHNvbGlkYWlyZSBkZXMgbWlncmFudHMifQ==">
+                                                                                                                        A la frontière italienne, la vallée de la Roya solidaire des migrants   
+                                                                                                            </a>
+                                                                                                </li>
+                                                                                    </ul>
+                                                                                    <span class="deplier ferme">afficher la suite des articles<span>
+                                                                        </span>
+                                                            </span>
+                                                </article>
+                                                <article class="grid_6 omega img_tt_chapo voir_plus" data-vr-contentbox="">
+                                                            <a href="/election-presidentielle-2017/article/2017/01/06/francois-bayrou-les-orientations-de-francois-fillon-inquietent_5058450_4854003.html" data-back-id="5058450:article:eyJ0aXRyZSI6IkZyYW5cdTAwZTdvaXMgQmF5cm91XHUwMGEwOiBcdTAwYWJcdTAwYTBMZXMgb3JpZW50YXRpb25zIGRlIEZyYW5cdTAwZTdvaXMgRmlsbG9uIGlucXVpXHUwMGU4dGVudFx1MDBhMFx1MDBiYiJ9">
+                                                                        <img data-lazyload="false" data-item-type="article" src="http://s1.lemde.fr/image/2017/01/06/312x156/5058449_3_29a7_francois-bayrou-le-5-janvier-a-paris_ac8367f38166eef53c0db2d6e5556852.jpg" alt="Francois Bayrou, le 5 janvier à Paris." title="MARTIN BUREAU / AFP" class="lazy-retina" width="312" height="156">            
+                                                                        <h2 class="tt6  marqueur_restreint">
+                                                                                    François Bayrou&nbsp;: «&nbsp;Les orientations de François Fillon inquiètent&nbsp;»
+                                                                                    <span class="nb_reactions mgl5">
+                                                                                                <span class="pic">
+                                                                                                </span>
+                                                                                                22
+                                                                                    </span>
+                                                                        </h2>
+                                                            </a>
+                                                            <p class="txt3">Le président du MoDem laisse planer le doute sur son éventuelle candidature. Mais malgré ses critiques, il ne ferme pas la porte à une alliance avec M. Fillon.</p>
+                                                                        <ul style="display: none;" class="liste_carre repliable">
+                                                                                    <li>
+                                                                                                <a href="/election-presidentielle-2017/article/2016/11/30/a-l-heure-du-rassemblement-les-centristes-s-eparpillent_5040736_4854003.html" class="txt3 " data-back-id="5040736:article:eyJ0aXRyZSI6IkEgbFx1MjAxOWhldXJlIGR1IHJhc3NlbWJsZW1lbnQsIGxlcyBjZW50cmlzdGVzIHNcdTIwMTlcdTAwZTlwYXJwaWxsZW50In0=">
+                                                                                                            A l’heure du rassemblement, les centristes s’éparpillent   
+                                                                                                            <span class="nb_reactions mgl5">
+                                                                                                                        <span class="pic">
+                                                                                                                        </span>
+                                                                                                                        3
+                                                                                                            </span>
+                                                                                                </a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                                <a href="/election-presidentielle-2017/article/2016/11/22/francois-bayrou-juge-le-programme-de-francois-fillon-dangereux_5035890_4854003.html" class="txt3 " data-back-id="5035890:article:eyJ0aXRyZSI6IkZyYW5cdTAwZTdvaXMgQmF5cm91IGp1Z2UgbGUgcHJvZ3JhbW1lIGRlIEZyYW5cdTAwZTdvaXMgRmlsbG9uIFx1MDBhYlx1MDBhMGRhbmdlcmV1eFx1MDBhMFx1MDBiYiJ9">
+                                                                                                            François Bayrou juge le programme de François Fillon «&nbsp;dangereux&nbsp;»   
+                                                                                                            <span class="nb_reactions mgl5">
+                                                                                                                        <span class="pic">
+                                                                                                                        </span>
+                                                                                                                        72
+                                                                                                            </span>
+                                                                                                </a>
+                                                                                    </li>
+                                                                        </ul>
+                                                            <span class="deplier ferme">
+                                                                        afficher la suite des articles
+                                                                        <span>
+                                                                        </span>
+                                                            </span>
+                                                </article>
+                                    </div>
+                        </div>
+            </section>
+
+
+            <section data-vr-zone="liste" class="liste_img_lien bordt6 bord_gris_clair padt16"><div class="titres_liste">
+      <a href="/asie-pacifique/article/2017/01/06/femmes-de-reconfort-tokyo-rappelle-son-ambassadeur-a-seoul_5058438_3216.html" data-back-id="5058438:article:eyJ0aXRyZSI6Ilx1MDBhYlx1MDBhMEZlbW1lcyBkZSByXHUwMGU5Y29uZm9ydFx1MDBhMFx1MDBiYlx1MDBhMDogVG9reW8gcmFwcGVsbGUgc29uIGFtYmFzc2FkZXVyIFx1MDBlMCBTXHUwMGU5b3VsIn0=" data-vr-contentbox="">
+      <figure class="grid_6 alpha">
+<img data-placeholder="true" data-item-type="article" data-src="http://s2.lemde.fr/image/2017/01/06/92x61/5058437_7_c5a1_2017-01-06-a065d65-15882-1vse0ju-nnwjnhfr_4ab3fa84638656a6f3de4839b2a6b32f.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="La statue d’une&nbsp;« femme de réconfort&nbsp;» devant le consulat japonais de Busan, en Corée du Sud." title="STR / AFP" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina" width="92" height="61">         <figcaption class="padl8"><h3 class=" ">«&nbsp;Femmes de réconfort&nbsp;»&nbsp;: Tokyo rappelle son ambassadeur à Séoul
+
+
+<span class="nb_reactions mgl5"><span class="pic"></span>12</span></h3></figcaption>
+      </figure>
+   </a>
+      <a href="/idees/article/2017/01/06/donald-trump-le-president-de-l-anti-democratie_5058470_3232.html" data-back-id="5058470:article:eyJ0aXRyZSI6Ilx1MDBhYlx1MDBhMFBvdXIgRG9uYWxkIFRydW1wLFx1MDBhMGxhIGRcdTAwZTltb2NyYXRpZSwgY1x1MjAxOWVzdCBib24gcG91ciBsZXMgbG9zZXJzXHUwMGEwXHUwMGJiIn0=" data-vr-contentbox="">
+      <figure class="grid_6 omega">
+<img data-placeholder="true" data-item-type="article" data-src="http://s1.lemde.fr/image/2017/01/06/92x61/5058469_7_72ec_donald-trump-le-28-decembre-a-palm-beach-en_28eeb03ae26a953c7c79a53ce5a53b4b.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="Donald Trump, le 28 décembre à Palm Beach, en Floride." title="DON EMMERT / AFP" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina" width="92" height="61">         <figcaption class="padl8"><h3 class=" marqueur_restreint">«&nbsp;Pour Donald Trump,&nbsp;la démocratie, c’est bon pour les losers&nbsp;»
+
+
+<span class="nb_reactions mgl5"><span class="pic"></span>20</span></h3></figcaption>
+      </figure>
+   </a>
+      <a href="/planete/article/2017/01/06/non-le-rechauffement-climatique-ne-s-est-pas-arrete-en-1998_5058441_3244.html" data-back-id="5058441:article:eyJ0aXRyZSI6Ik5vbiwgbGUgclx1MDBlOWNoYXVmZmVtZW50IGNsaW1hdGlxdWUgbmUgc1x1MjAxOWVzdCBwYXMgYXJyXHUwMGVhdFx1MDBlOSBlblx1MDBhMDE5OTgifQ==" data-vr-contentbox="">
+      <figure class="grid_6 alpha">
+<img data-placeholder="true" data-item-type="article" data-src="http://s2.lemde.fr/image/2017/01/06/92x61/5058440_7_c584_un-iceberg-dans-la-peninsule-antarctique_91c2e0023e60618511983d6e023cb6ac.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="Un iceberg dans la péninsule Antarctique." title="EITAN ABRAMOVICH / AFP" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina" width="92" height="61">         <figcaption class="padl8"><h3 class=" ">Non, le réchauffement climatique ne s’est pas arrêté en&nbsp;1998
+
+
+<span class="nb_reactions mgl5"><span class="pic"></span>18</span></h3></figcaption>
+      </figure>
+   </a>
+      <a href="/election-presidentielle-2017/live/2017/01/06/suivez-l-actualite-politique-en-direct_5058502_4854003.html" data-back-id="5058502:live:eyJ0aXRyZSI6IlByaW1haXJlIFx1MDBlMCBnYXVjaGUgOiBwb3NleiB2b3MgcXVlc3Rpb25zIHN1ciBsZXMgcHJvZ3JhbW1lcyBkZXMgY2FuZGlkYXRzIn0=" data-vr-contentbox="">
+      <figure class="grid_6 omega">
+<div class="img_ico">
+<img data-placeholder="true" data-item-type="live" data-src="http://s1.lemde.fr/image/2017/01/06/92x61/5058529_7_4c24_selon-un-sondage-harris-interactive-publie-le_528313df3d14fd905635567f48191445.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="Selon un sondage Harris interactive publié le 5&nbsp;janvier, Manuel Valls ferait la course en tête parmi les candidats à la primaire de la gauche. Un résultat qu’il convient de prendre avec beaucoup de précautions tant les incertitudes sont nombreuses." title="AFP" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina" width="92" height="61"><span class="ico_live ico29x29"></span>
+</div>         <figcaption class="padl8"><h3 class=" ">Primaire à gauche : posez vos questions sur les programmes des candidats
+
+<span class="type_element mgl5">Live</span>
+</h3></figcaption>
+      </figure>
+   </a>
+      <a href="/climat/article/2017/01/06/le-centre-de-l-europe-touche-par-une-vague-de-froid-le-nord-est-de-la-france-grelotte_5058527_1652612.html" data-back-id="5058527:article:eyJ0aXRyZSI6IkxlIGNlbnRyZSBkZSBsXHUyMDE5RXVyb3BlIHRvdWNoXHUwMGU5IHBhciB1bmUgdmFndWUgZGUgZnJvaWQsIGxlIG5vcmQtZXN0IGRlIGxhIEZyYW5jZSBncmVsb3R0ZSJ9" data-vr-contentbox="">
+      <figure class="grid_6 alpha">
+<img data-placeholder="true" data-item-type="article" data-src="http://s2.lemde.fr/image/2017/01/06/92x61/5058526_7_8c27_l-air-froid-en-provenance-de-scandinavie_523c325f487992cdd590c13a9a3f94ed.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="L’air froid en provenance de Scandinavie touche le centre de l’Europe." title="ROLAND WEIHRAUCH / AFP" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina" width="92" height="61">         <figcaption class="padl8"><h3 class=" ">Le centre de l’Europe touché par une vague de froid, le nord-est de la France grelotte
+
+
+</h3></figcaption>
+      </figure>
+   </a>
+      <a href="/automobile/article/2017/01/06/apres-ford-et-general-motors-toyota-se-fait-tancer-par-donald-trump_5058497_1654940.html" data-back-id="5058497:article:eyJ0aXRyZSI6IkFwclx1MDBlOHMgRm9yZCBldCBHZW5lcmFsIE1vdG9ycywgVG95b3RhIHNlIGZhaXQgdGFuY2VyIHBhciBEb25hbGQgVHJ1bXAifQ==" data-vr-contentbox="">
+      <figure class="grid_6 omega">
+<img data-placeholder="true" data-item-type="article" data-src="http://s1.lemde.fr/image/2017/01/06/92x61/5058518_7_e547_apres-general-motors-et-ford-donald-trump_10148497dee1f0c9dd0f6da465b2e4fc.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="Après General Motors et Ford, Donald Trump s’en prend désormais à Toyota. Le président américain élu menace de taxer le constructeur japonais s’il ne renonce pas à construire une nouvelle usine au Mexique." title="PAUL J. RICHARDS / AFP" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina" width="92" height="61">         <figcaption class="padl8"><h3 class=" ">Après Ford et General Motors, Toyota se fait tancer par Donald Trump
+
+
+<span class="nb_reactions mgl5"><span class="pic"></span>7</span></h3></figcaption>
+      </figure>
+   </a>
+      <a href="/election-presidentielle-2017/article/2017/01/06/marine-le-pen-reaffirme-sa-volonte-de-sortir-de-l-euro_5058607_4854003.html" data-back-id="5058607:article:eyJ0aXRyZSI6Ik1hcmluZSBMZSBQZW4gclx1MDBlOWFmZmlybWUgc2Egdm9sb250XHUwMGU5IGRlIHNvcnRpciBkZSBsXHUyMDE5ZXVybyJ9" data-vr-contentbox="">
+      <figure class="grid_6 alpha">
+<img data-placeholder="true" data-item-type="article" data-src="http://s2.lemde.fr/image/2017/01/06/92x61/5058604_7_ef37_marine-le-pen-presidente-du-fn-presente-ses_ada6c4278200343823f4367046ceb87e.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="Marine Le Pen, présidente du FN, présente ses voeux à la presse, le 4 janvier 2017." title="ALAIN JOCARD / AFP" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina" width="92" height="61">         <figcaption class="padl8"><h3 class=" ">Marine Le Pen réaffirme sa volonté de sortir de l’euro
+
+
+</h3></figcaption>
+      </figure>
+   </a>
+      <a href="/rugby/article/2017/01/06/rugby-laporte-coupe-des-tetes-chez-les-bleues_5058610_1616937.html" data-back-id="5058610:article:eyJ0aXRyZSI6IlJ1Z2J5XHUwMGEwOiBMYXBvcnRlIGNvdXBlIGRlcyB0XHUwMGVhdGVzIGNoZXogbGVzIEJsZXVlcyJ9" data-vr-contentbox="">
+      <figure class="grid_6 omega">
+<img data-placeholder="true" data-item-type="article" data-src="http://s1.lemde.fr/image/2017/01/06/92x61/5058606_7_d217_l-ancien-selectionneur-jean-michel_79b66b5236132c97542ebac2d66ea790.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="L’ancien sélectionneur, Jean-Michel Gonzalez, le 22 novembre 2016 après un match face aux Etats-Unis à Béziers." title="SYLVAIN THOMAS / AFP" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina" width="92" height="61">         <figcaption class="padl8"><h3 class=" ">Rugby&nbsp;: Laporte coupe des têtes chez les Bleues
+
+
+</h3></figcaption>
+      </figure>
+   </a>
+      <a href="/entreprises/article/2017/01/06/louer-plutot-qu-acheter-la-mode-sur-abonnement_5058476_1656994.html" data-back-id="5058476:article:eyJ0aXRyZSI6IkxvdWVyIHBsdXRcdTAwZjR0IHF1XHUyMDE5YWNoZXRlciwgbGEgbW9kZSBzdXIgYWJvbm5lbWVudCJ9" data-vr-contentbox="">
+      <figure class="grid_6 alpha">
+<img data-placeholder="true" data-item-type="article" data-src="http://s2.lemde.fr/image/2017/01/06/92x61/5058474_7_719d_essai-d-une-robe-sonia-rykiel-dans-le_7615526b694f7454423e68c193e83529.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="Essai d’une robe Sonia Rykiel dans le showroom de panoply à Paris en janvier." title="FEE GLORIA GROENEMEYER" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina" width="92" height="61">         <figcaption class="padl8"><h3 class=" marqueur_restreint">Louer plutôt qu’acheter, la mode sur abonnement
+
+
+</h3></figcaption>
+      </figure>
+   </a>
+      <a href="http://filiu.blog.lemonde.fr/2017/01/06/comment-m-melenchon-nie-le-peuple-de-syrie-et-ses-droits/" data-back-id="5058557:post_blog:eyJ0aXRyZSI6Ilx1MDBhYlx1MDBhMENvbW1lbnQgSmVhbi1MdWMgTVx1MDBlOWxlbmNob24gbmllIGxlIHBldXBsZSBkZSBTeXJpZSBldCBzZXMgZHJvaXRzXHUwMGEwXHUwMGJiLCBwYXIgSmVhbi1QaWVycmUgRmlsaXUifQ==" data-vr-contentbox="">
+      <figure class="grid_6 omega">
+<img data-placeholder="true" data-item-type="post_blog" data-src="http://s1.lemde.fr/image/2017/01/06/92x61/5058552_7_c8cf_jean-luc-melenchon-le-5-janvier-2017_d9a067dc83c2ccca9d6e602ec4ee4d70.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="Jean-Luc Melenchon, le 5 janvier 2017." title="PHILIPPE LOPEZ / AFP" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina" width="92" height="61">         <figcaption class="padl8"><h3 class=" ">«&nbsp;Comment Jean-Luc Mélenchon nie le peuple de Syrie et ses droits&nbsp;», par Jean-Pierre Filiu
+
+<span class="type_element mgl5">Post de blog</span>
+</h3></figcaption>
+      </figure>
+   </a>
+      <a href="/campus/article/2016/12/07/entre-metier-fun-ou-safe-faut-il-absolument-choisir_5045180_4401467.html" data-back-id="5045180:article:eyJ0aXRyZSI6Ik8yMS4gRW50cmUgbVx1MDBlOXRpZXIgZnVuIG91IFx1MDBhYlx1MDBhMHNhZmVcdTAwYTBcdTAwYmIsIGZhdXQtaWwgYWJzb2x1bWVudCBjaG9pc2lyXHUwMGEwPyJ9" data-vr-contentbox="">
+      <figure class="grid_6 alpha">
+<img data-placeholder="true" data-item-type="article" data-src="http://s2.lemde.fr/image/2016/12/07/92x61/5045179_7_35b2_2016-12-06-b84ecad-24168-19ht556-88bd4sfw29_2a5952ddf3be99b619e606f64f54db0f.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" title="Pablo Bisoglio" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina" alt=" " width="92" height="61">         <figcaption class="padl8"><h3 class=" ">O21. Entre métier fun ou «&nbsp;safe&nbsp;», faut-il absolument choisir&nbsp;?
+
+
+</h3></figcaption>
+      </figure>
+   </a>
+      <a href="/televisions-radio/article/2017/01/06/le-saturday-night-live-made-in-france-fait-se-tordre-de-rire_5058422_1655027.html" data-back-id="5058422:article:eyJ0aXRyZSI6IkxlIFx1MDBhYlx1MDBhMFNhdHVyZGF5IE5pZ2h0IExpdmVcdTAwYTBcdTAwYmIgbWFkZSBpbiBGcmFuY2UgZ2FnbmUgc29uIHBhcmkifQ==" data-vr-contentbox="">
+      <figure class="grid_6 omega">
+<img data-placeholder="true" data-item-type="article" data-src="http://s1.lemde.fr/image/2017/01/06/92x61/5058424_7_00f1_2017-01-06-ccb878d-31667-13s07v8-aze55ng66r_fe729cc01b8f388777e94a02b014f4a4.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" title="M6" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina" alt=" " width="92" height="61">         <figcaption class="padl8"><h3 class=" ">Le «&nbsp;Saturday Night Live&nbsp;» made in France gagne son pari
+
+
+<span class="nb_reactions mgl5"><span class="pic"></span>17</span></h3></figcaption>
+      </figure>
+   </a>
+      <a href="/politique/article/2017/01/06/a-l-eglise-saint-sulpice-a-paris-l-ultime-hommage-a-francois-chereque_5058613_823448.html" data-back-id="5058613:article:eyJ0aXRyZSI6IkEgbFx1MjAxOVx1MDBlOWdsaXNlIFNhaW50LVN1bHBpY2UgXHUwMGUwIFBhcmlzLCBsXHUyMDE5dWx0aW1lIGhvbW1hZ2UgXHUwMGUwIEZyYW5cdTAwZTdvaXMgQ2hcdTAwZTlyXHUwMGU4cXVlIn0=" data-vr-contentbox="">
+      <figure class="grid_6 alpha">
+<img data-placeholder="true" data-item-type="article" data-src="http://s2.lemde.fr/image/2017/01/06/92x61/5058611_7_b828_francois-hollande-lors-des-obseques-de_2fe6e7007a83c026a1e5b6b0a7157d4a.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="François Hollande, lors des obsèques de François Chérèque, le 5 janvier." title="ERIC FEFERBERG / AFP" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina" width="92" height="61">         <figcaption class="padl8"><h3 class=" ">A l’église Saint-Sulpice à Paris, l’ultime hommage à François Chérèque
+
+
+</h3></figcaption>
+      </figure>
+   </a>
+      <a href="/tant-de-temps/article/2017/01/06/nicole-aubert-nos-societes-ont-cree-des-individus-a-flux-tendus_5058551_4598196.html" data-back-id="5058551:article:eyJ0aXRyZSI6Ik5pY29sZSBBdWJlcnQgOiBcdTAwYWJcdTAwYTBOb3Mgc29jaVx1MDBlOXRcdTAwZTlzIG9udCBjclx1MDBlOVx1MDBlOSBkZXMgaW5kaXZpZHVzIFx1MDBlMCBmbHV4IHRlbmR1c1x1MDBhMFx1MDBiYiJ9" data-vr-contentbox="">
+      <figure class="grid_6 omega">
+<img data-placeholder="true" data-item-type="article" data-src="http://s1.lemde.fr/image/2017/01/06/92x61/5058550_7_51f7_nicole-aubert-a-paris-en-decembre-2016_67e17cee438e2575fbbba3c6ac19cbbf.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="Nicole Aubert, à Paris, en décembre 2016." title="Julien Bourgeois pour M Le magazine du Monde" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina" width="92" height="61">         <figcaption class="padl8"><h3 class=" ">«&nbsp;Nos sociétés ont créé des individus à flux tendus&nbsp;»
+
+
+</h3></figcaption>
+      </figure>
+   </a>
+      <a href="/idees/article/2017/01/05/elites-francaises-enquete-sur-un-monde-clos_5058258_3232.html" data-back-id="5058258:article:eyJ0aXRyZSI6IkVsaXRlcyBmcmFuXHUwMGU3YWlzZXNcdTAwYTA6IGVucXVcdTAwZWF0ZSBzdXIgdW4gbW9uZGUgY2xvcyJ9" data-vr-contentbox="">
+      <figure class="grid_6 alpha">
+<img data-placeholder="true" data-item-type="article" data-src="http://s2.lemde.fr/image/2017/01/05/92x61/5058256_7_28d1_la-promotion-2008-de-l-ecole-polytechnique_22b6b1a19628c1337a64a957ec3fca5d.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="La promotion 2008 de l’Ecole polytechnique, à Palaiseau (Essonne)." title="LAURENT SAZY" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina" width="92" height="61">         <figcaption class="padl8"><h3 class=" marqueur_restreint">Elites françaises&nbsp;: enquête sur un monde clos
+
+
+<span class="nb_reactions mgl5"><span class="pic"></span>148</span></h3></figcaption>
+      </figure>
+   </a>
+      <a href="/campus/article/2017/01/06/cinq-idees-fausses-mais-repandues-sur-le-programme-erasmus_5058597_4401467.html" data-back-id="5058597:article:eyJ0aXRyZSI6IkNpbnEgaWRcdTAwZTllcyBmYXVzc2VzIG1haXMgclx1MDBlOXBhbmR1ZXMgc3VyIGxlIHByb2dyYW1tZSBFcmFzbXVzIn0=" data-vr-contentbox="">
+      <figure class="grid_6 omega">
+<img data-placeholder="true" data-item-type="article" data-src="http://s1.lemde.fr/image/2017/01/06/92x61/5058595_7_f625_2017-01-06-e4afc48-28694-bhz83l-y17yxvfgvi_edb561579ac402880154036a36bcfdbe.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" title="PHILIPPE HUGUEN / AFP" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina" alt=" " width="92" height="61">         <figcaption class="padl8"><h3 class=" ">Cinq idées fausses mais répandues sur le programme Erasmus
+
+
+</h3></figcaption>
+      </figure>
+   </a>
+</div>
+</section>
+
+      </div>
+      <!-- col droite -->
+      <div class="grid_6 omega col_droite resizable">
+         <!--conteneur-->
+         
+
+
+
+
+       <div data-vr-zone="bloc_en_continu" data-jsid="pave_edito_en_continu" class="bloc_base bloc_droit en_continu">
+      <h3 class="entete_important">En continu</h3>
+
+      <div class="pages">
+            <ul data-jsid="page" class="liste_horaire no_border current">
+                                       <li data-item-id="5058672">
+                        <span class="heure">11:22</span>
+<a data-vr-contentbox="" href="/election-presidentielle-2017/article/2017/01/06/on-m-a-impose-le-49-3-la-declaration-de-manuel-valls-suscite-critiques-et-railleries_5058672_4854003.html" class="texte">49.3 : Manuel Valls épinglé</a>                     </li>
+                                       <li data-item-id="5058650">
+                        <span class="heure">10:59</span>
+<a data-vr-contentbox="" href="/economie/article/2017/01/06/alibaba-et-les-deux-contrefacteurs_5058650_3234.html" class="texte">Alibaba et les deux contrefacteurs</a>                     </li>
+                                       <li data-item-id="5058647">
+                        <span class="heure">10:59</span>
+<a data-vr-contentbox="" href="/economie/article/2017/01/06/montagnes-russes-pour-le-bitcoin_5058647_3234.html" class="texte">Montagnes russes pour le bitcoin</a>                     </li>
+                                       <li data-item-id="5058635">
+                        <span class="heure">10:54</span>
+<a data-vr-contentbox="" href="/europe/article/2017/01/06/de-padoue-au-cap-d-agde-la-vie-secrete-du-cure-proxenete_5058635_3214.html" class="texte">La vie secrète du curé proxénète</a>                     </li>
+                                       <li data-item-id="5058634">
+                        <span class="heure">10:54</span>
+<a data-vr-contentbox="" href="/europe/article/2017/01/06/un-ex-premier-ministre-du-kosovo-arrete-en-france_5058634_3214.html" class="texte">Un ex-dirigeant du Kosovo arrêté</a>                     </li>
+                                       <li data-item-id="5058630">
+                        <span class="heure">10:54</span>
+<a data-vr-contentbox="" href="/economie/article/2017/01/06/chez-air-france-nouveau-round-de-negociations-avec-les-syndicats_5058630_3234.html" class="texte">Air France : nouvelles négociations</a>                     </li>
+                                       <li data-item-id="5058627">
+                        <span class="heure">10:45</span>
+<a data-vr-contentbox="" href="/pixels/article/2017/01/06/wistiki-le-traqueur-d-objets-perdus_5058627_4408996.html" class="texte">Wistiki, le traqueur d’objets perdus</a>                     </li>
+                                       <li data-item-id="5058613">
+                        <span class="heure">10:40</span>
+<a data-vr-contentbox="" href="/politique/article/2017/01/06/a-l-eglise-saint-sulpice-a-paris-l-ultime-hommage-a-francois-chereque_5058613_823448.html" class="texte obf">L’ultime hommage à François Chérèque</a>                     </li>
+            </ul>
+            <ul style="display: none;" data-jsid="page" class="liste_horaire no_border">
+                                       <li data-item-id="5058610">
+                        <span class="heure">10:39</span>
+<a data-vr-contentbox="" href="/rugby/article/2017/01/06/rugby-laporte-coupe-des-tetes-chez-les-bleues_5058610_1616937.html" class="texte obf">Rugby : Laporte coupe des têtes</a>                     </li>
+                                       <li data-item-id="5058607">
+                        <span class="heure">10:38</span>
+<a data-vr-contentbox="" href="/election-presidentielle-2017/article/2017/01/06/marine-le-pen-reaffirme-sa-volonte-de-sortir-de-l-euro_5058607_4854003.html" class="texte obf">Sortie de l’euro : Le Pen persiste</a>                     </li>
+                                       <li data-item-id="5058597">
+                        <span class="heure">10:27</span>
+<a data-vr-contentbox="" href="/campus/article/2017/01/06/cinq-idees-fausses-mais-repandues-sur-le-programme-erasmus_5058597_4401467.html" class="texte obf">Idées fausses sur Erasmus</a>                     </li>
+                                       <li data-item-id="5058590">
+                        <span class="heure">10:22</span>
+<a data-vr-contentbox="" href="/la-foire-du-drone/article/2017/01/06/du-drone-pecheur-au-drone-en-cage-les-nouveautes-du-ces-de-las-vegas_5058590_5037916.html" class="texte">Drones : nouveautés à Las Vegas</a>                     </li>
+                                       <li data-item-id="5058581">
+                        <span class="heure">10:18</span>
+<a data-vr-contentbox="" href="/police-justice/article/2017/01/06/un-enseignant-chercheur-relaxe-apres-avoir-aide-des-migrants_5058581_1653578.html" class="texte obf">Aide aux migrants : relaxe à Nice</a>                     </li>
+                                       <li data-item-id="5058547">
+                        <span class="heure">09:51</span>
+<a data-vr-contentbox="" href="http://passeurdesciences.blog.lemonde.fr/2017/01/06/selection-scientifique-de-la-semaine-numero-253/" class="texte">Sélection scientifique de la semaine</a>                     </li>
+                                       <li data-item-id="5058527">
+                        <span class="heure">09:28</span>
+<a data-vr-contentbox="" href="/climat/article/2017/01/06/le-centre-de-l-europe-touche-par-une-vague-de-froid-le-nord-est-de-la-france-grelotte_5058527_1652612.html" class="texte obf">Vague de froid en Europe</a>                     </li>
+                                       <li data-item-id="5058520">
+                        <span class="heure">09:08</span>
+<a data-vr-contentbox="" href="http://robots.blog.lemonde.fr/2017/01/05/drones-militaires-2016-frappes-etendues-proliferation-croissante-et-robotisation-maritime-et-terrestre/" class="texte">Toujours plus de drones militaires</a>                     </li>
+            </ul>
+            <ul style="display: none;" data-jsid="page" class="liste_horaire no_border">
+                                       <li data-item-id="5058516">
+                        <span class="heure">07:52</span>
+<a data-vr-contentbox="" href="/les-decodeurs/article/2017/01/06/trump-valls-japon-climat-les-informations-a-retenir-le-6-janvier-a-8-heures_5058516_4355770.html" class="texte">L’essentiel de l’actualité à 8 heures</a>                     </li>
+                                       <li data-item-id="5058502">
+                        <span class="heure">07:20</span>
+<a data-vr-contentbox="" href="/election-presidentielle-2017/live/2017/01/06/suivez-l-actualite-politique-en-direct_5058502_4854003.html" class="texte obf">L’actualité politique en direct</a>                     </li>
+                                       <li data-item-id="5058497">
+                        <span class="heure">06:46</span>
+<a data-vr-contentbox="" href="/automobile/article/2017/01/06/apres-ford-et-general-motors-toyota-se-fait-tancer-par-donald-trump_5058497_1654940.html" class="texte obf">Toyota se fait tancer par Donald Trump</a>                     </li>
+                                       <li data-item-id="5058462">
+                        <span class="heure">06:38</span>
+<a data-vr-contentbox="" href="/education/article/2017/01/06/education-les-reformes-de-la-gauche-ont-elles-fait-le-jeu-du-prive_5058462_1473685.html" class="texte">Ecole : le privé de plus en plus prisé</a>                     </li>
+                                       <li data-item-id="5058459">
+                        <span class="heure">06:37</span>
+<a data-vr-contentbox="" href="/police-justice/article/2017/01/06/faut-il-rendre-les-crimes-sexuels-sur-les-mineurs-imprescriptibles_5058459_1653578.html" class="texte obf">Des crimes sexuels imprescriptibles ?</a>                     </li>
+                                       <li data-item-id="5058444">
+                        <span class="heure">06:21</span>
+<a data-vr-contentbox="" href="/logement/article/2017/01/06/cosse-cet-hiver-n-est-pas-plus-difficile-que-les-autres-en-matiere-d-hebergement-d-urgence_5058444_1653445.html" class="texte">Cosse sur l’hebergement des sans-abri</a>                     </li>
+                                       <li data-item-id="5058441">
+                        <span class="heure">05:31</span>
+<a data-vr-contentbox="" href="/planete/article/2017/01/06/non-le-rechauffement-climatique-ne-s-est-pas-arrete-en-1998_5058441_3244.html" class="texte obf">Climat : pas de pause du réchauffement</a>                     </li>
+                                       <li data-item-id="5058438">
+                        <span class="heure">05:04</span>
+<a data-vr-contentbox="" href="/asie-pacifique/article/2017/01/06/femmes-de-reconfort-tokyo-rappelle-son-ambassadeur-a-seoul_5058438_3216.html" class="texte obf">Tokyo rappelle son ambassadeur à Séoul</a>                     </li>
+            </ul>
+            <ul style="display: none;" data-jsid="page" class="liste_horaire no_border">
+                                       <li data-item-id="5058435">
+                        <span class="heure">04:33</span>
+<a data-vr-contentbox="" href="/police-justice/article/2017/01/06/l-annee-2016-marquee-par-une-saisie-record-des-avoirs-criminels_5058435_1653578.html" class="texte">Saisie record des avoirs criminels</a>                     </li>
+                                       <li data-item-id="5058432">
+                        <span class="heure">04:02</span>
+<a data-vr-contentbox="" href="/proche-orient/article/2017/01/06/benyamin-netanyahou-entendu-pour-la-deuxieme-fois-par-la-police_5058432_3218.html" class="texte">Nétanyahou réentendu par la police</a>                     </li>
+                                       <li data-item-id="5058429">
+                        <span class="heure">02:46</span>
+<a data-vr-contentbox="" href="/ameriques/article/2017/01/06/premieres-exportations-cubaines-vers-les-etats-unis-depuis-plus-de-50-ans_5058429_3222.html" class="texte">Premières exportations Cuba-Etats-Unis</a>                     </li>
+                                       <li data-item-id="5058422">
+                        <span class="heure">01:31</span>
+<a data-vr-contentbox="" href="/televisions-radio/article/2017/01/06/le-saturday-night-live-made-in-france-fait-se-tordre-de-rire_5058422_1655027.html" class="texte obf">Un « SNL&nbsp;» made in France tordant</a>                     </li>
+                                       <li data-item-id="5058420">
+                        <span class="heure">00:50</span>
+<a data-vr-contentbox="" href="/football/article/2017/01/06/apres-l-exploit-de-leicester-riyad-mahrez-sacre-ballon-d-or-africain_5058420_1616938.html" class="texte">Mahrez sacré Ballon d’or africain</a>                     </li>
+                                       <li data-item-id="5058417">
+                        <span class="heure">00:36</span>
+<a data-vr-contentbox="" href="/election-presidentielle-2017/article/2017/01/06/49-3-social-reformisme-laicite-ce-qu-il-faut-retenir-de-manuel-valls-dans-l-emission-politique_5058417_4854003.html" class="texte obf">Valls dans&nbsp;« L’Emission politique&nbsp;»</a>                     </li>
+                                       <li data-item-id="5058414">
+                        <span class="heure">23:38</span>
+<a data-vr-contentbox="" href="/ligue-1/article/2017/01/05/ligue-1-apres-les-incidents-le-match-metz-lyon-a-rejouer_5058414_1616940.html" class="texte">Ligue 1 :&nbsp;match Metz-Lyon à rejouer</a>                     </li>
+                                       <li data-item-id="5058413">
+                        <span class="heure">23:28</span>
+<a data-vr-contentbox="" href="/les-decodeurs/article/2017/01/05/49-3-securite-decheance-les-affirmations-de-manuel-valls-decryptees_5058413_4355770.html" class="texte obf">Les affirmations de Valls décryptées</a>                     </li>
+            </ul>
+            <ul style="display: none;" data-jsid="page" class="liste_horaire no_border">
+                                       <li data-item-id="5058408">
+                        <span class="heure">22:18</span>
+<a data-vr-contentbox="" href="/proche-orient/article/2017/01/05/quatre-detenus-de-guantanamo-transferes-en-arabie-saoudite_5058408_3218.html" class="texte">Guantanamo : 4 détenus arrivés à Riyad</a>                     </li>
+                                       <li data-item-id="5058405">
+                        <span class="heure">21:59</span>
+<a data-vr-contentbox="" href="/afrique/article/2017/01/05/maroc-les-autorites-ordonnent-la-fermeture-des-ecoles-du-reseau-turc-gulen_5058405_3212.html" class="texte">Maroc : la fermeture des écoles Gülen</a>                     </li>
+                                       <li data-item-id="5058402">
+                        <span class="heure">21:43</span>
+<a data-vr-contentbox="" href="/election-presidentielle-2017/video/2017/01/05/manuel-valls-on-m-a-impose-le-49-3_5058402_4854003.html" class="texte">Valls : « On m’a imposé le 49.3&nbsp;»</a>                     </li>
+                                       <li data-item-id="5058400">
+                        <span class="heure">21:41</span>
+<a data-vr-contentbox="" href="/afrique/article/2017/01/05/rdc-15-morts-dans-des-affrontements-entre-pygmees-et-bantous_5058400_3212.html" class="texte">Affrontements entre Pygmées et Bantous</a>                     </li>
+                                       <li data-item-id="5058395">
+                        <span class="heure">21:15</span>
+<a data-vr-contentbox="" href="/sante/article/2017/01/05/etats-unis-la-mortalite-due-au-cancer-en-chute-depuis-vingt-cinq-ans_5058395_1651302.html" class="texte">USA : on meurt moins du cancer</a>                     </li>
+                                       <li data-item-id="5058391">
+                        <span class="heure">20:52</span>
+<a data-vr-contentbox="" href="/election-presidentielle-2017/live/2017/01/05/suivez-en-direct-l-emission-politique-avec-manuel-valls_5058391_4854003.html" class="texte">En direct : Manuel Valls sur France 2</a>                     </li>
+                                       <li data-item-id="5058389">
+                        <span class="heure">20:04</span>
+<a data-vr-contentbox="" href="/police-justice/article/2017/01/05/un-ex-premier-ministre-kosovar-place-en-detention-provisoire-en-france_5058389_1653578.html" class="texte">Un ex-1er ministre kosovar incarcéré</a>                     </li>
+                                       <li data-item-id="5058386">
+                        <span class="heure">19:43</span>
+<a data-vr-contentbox="" href="/campus/article/2017/01/05/le-monde-vous-invite-au-salon-des-masters-et-masteres-specialises-samedi-28-janvier_5058386_4401467.html" class="texte">Le Monde organise le Salon des masters</a>                     </li>
+            </ul>
+      </div>
+      <div class="footer no_bg">
+<a href="http://www.lemonde.fr/actualite-en-continu/" class="agauche chevron">Toute l'actualité "en continu"</a>                              <p class="pages" role="navigation">
+               <span data-jsid="prev" title="Précédent" class="btn btn_petit">‹</span>
+               <span>
+                  <span data-jsid="current_page">1</span><span>/5</span>
+               </span>
+               <span data-jsid="next" title="Suivant" class="btn btn_petit">›</span>
+            </p>
+      </div>
+   </div>
+      <script>
+      require(["jquery", "lmd/ui/pagination", "lmd/module/encontinu/refresh"], function ($, pager, refresh) {
+         pager.init({blockSelector: 'pave_edito_en_continu'});
+         refresh.init();
+      });
+   </script>
+
+    <div class="mgb16"><a href="  https://checkout.lemonde.fr/gcheckout/cart/add/sku/S_PRE180J100OJDPRLVT1FPRIO/#xtor=CS1-263[BOUTONS_LMFR]-[COL_DROITE]-5-[Home]" class="opacity_hover" onclick="return xt_click(this, " c",="" "",="" "abo::col_droite",="" "n")"=""><img id="bt_recrut_abo" src="http://s1.lemde.fr/mmpub/img/widget/583841e6653525.14456160/314X78.png" alt="Découvrez l'édition abonnés" data-lazyload="false"></a></div>
+
+    <div id="dfp-pave_haut" class="dfp_slot" data-format="pave_haut"></div>
+    <div id="test_ab_plus_partages" class="plus_partages " data-vr-zone="plus_partages_fb">
+   <h3 class="entete"><span>Les plus partagés</span></h3>
+   <ul style="height: 893px;">
+      <li>
+         <span class="numero">1</span>
+<a data-back-id="5058402:video:eyJ0aXRyZSI6Ik1hbnVlbCBWYWxsc1x1MDBhMDogXHUwMGFiXHUwMGEwT24gbVx1MjAxOWEgaW1wb3NcdTAwZTkgbGUgNDkuM1x1MDBhMFx1MDBiYiJ9" href="/election-presidentielle-2017/video/2017/01/05/manuel-valls-on-m-a-impose-le-49-3_5058402_4854003.html" class="texte obf" data-vr-contentbox="">Manuel Valls&nbsp;: «&nbsp;On m’a imposé le 49.3&nbsp;»</a>         <span class="bulle_nombre">6000</span>
+      </li>
+      <li>
+         <span class="numero">2</span>
+<a data-back-id="5058377:post_blog:eyJ0aXRyZSI6IlRob21hcyBQaWtldHR5XHUwMGEwOiBsZXMgaWRcdTAwZTllcyByZVx1MDBlN3VlcyBzdXIgbGEgcHJvZHVjdGl2aXRcdTAwZTkgZW4gQWxsZW1hZ25lIGV0IGVuIEZyYW5jZSJ9" href="http://piketty.blog.lemonde.fr/2017/01/05/de-la-productivite-en-france-en-allemagne-et-ailleurs/" class="texte" data-vr-contentbox="">Thomas Piketty&nbsp;: les idées reçues sur la productivité en Allemagne et en France</a>         <span class="bulle_nombre">2744</span>
+      </li>
+      <li>
+         <span class="numero">3</span>
+<a data-back-id="5058214:article:eyJ0aXRyZSI6IkxlIFBlbiBldCBGaWxsb24gdG91am91cnMgZW4gdFx1MDBlYXRlIGRlcyBpbnRlbnRpb25zIGRlIHZvdGUgZGVzIGZvbmN0aW9ubmFpcmVzIn0=" href="/election-presidentielle-2017/article/2017/01/05/le-pen-et-fillon-toujours-en-tete-des-intentions-de-vote-des-fonctionnaires_5058214_4854003.html" class="texte" data-vr-contentbox="">Le Pen et Fillon toujours en tête des intentions de vote des fonctionnaires</a>         <span class="bulle_nombre">2117</span>
+      </li>
+      <li>
+         <span class="numero">4</span>
+<a data-back-id="5058250:article:eyJ0aXRyZSI6IlR1cnF1aWVcdTAwYTA6IGV4cGxvc2lvbiBcdTAwZTAgbGEgdm9pdHVyZSBwaVx1MDBlOWdcdTAwZTllIFx1MDBlMCBJem1pciJ9" href="/international/article/2017/01/05/turquie-explosion-a-la-voiture-piegee-a-izmir_5058250_3210.html" class="texte" data-vr-contentbox="">Turquie&nbsp;: explosion à la voiture piégée à Izmir</a>         <span class="bulle_nombre">1801</span>
+      </li>
+      <li>
+         <span class="numero">5</span>
+<a data-back-id="5058185:article:eyJ0aXRyZSI6IkxhIEJCQyBlc3QtZWxsZSBhbGxcdTAwZTllIHRyb3AgbG9pbiBhdmVjIGxlIHNrZXRjaCBcdTAwYWJcdTAwYTBSZWFsIEhvdXNld2l2ZXMgb2YgSVNJU1x1MDBhMFx1MDBiYlx1MDBhMD8ifQ==" href="/big-browser/article/2017/01/05/la-bbc-est-elle-allee-trop-loin-avec-le-sketch-real-housewives-of-isis_5058185_4832693.html" class="texte" data-vr-contentbox="">La BBC est-elle allée trop loin avec le sketch «&nbsp;Real Housewives of ISIS&nbsp;»&nbsp;?</a>         <span class="bulle_nombre">1456</span>
+      </li>
+      <li>
+         <span class="numero">6</span>
+<a data-back-id="5058422:article:eyJ0aXRyZSI6IkxlIFx1MDBhYlx1MDBhMFNhdHVyZGF5IE5pZ2h0IExpdmVcdTAwYTBcdTAwYmIgbWFkZSBpbiBGcmFuY2UgZ2FnbmUgc29uIHBhcmkifQ==" href="/televisions-radio/article/2017/01/06/le-saturday-night-live-made-in-france-fait-se-tordre-de-rire_5058422_1655027.html" class="texte obf" data-vr-contentbox="">Le «&nbsp;Saturday Night Live&nbsp;» made in France gagne son pari</a>         <span class="bulle_nombre">1368</span>
+      </li>
+      <li>
+         <span class="numero">7</span>
+<a data-back-id="5058193:article:eyJ0aXRyZSI6IlNvYnJlIGNvbW1cdTAwZTltb3JhdGlvbiBcdTAwZTAgUGFyaXMgZGVzIGF0dGVudGF0cyBjb250cmUgXHUwMGFiXHUwMGEwQ2hhcmxpZSBIZWJkb1x1MDBhMFx1MDBiYiJ9" href="/police-justice/article/2017/01/05/sobre-commemoration-a-paris-des-attentats-contre-charlie-hebdo_5058193_1653578.html" class="texte" data-vr-contentbox="">Sobre commémoration à Paris des attentats contre «&nbsp;Charlie Hebdo&nbsp;»</a>         <span class="bulle_nombre">1268</span>
+      </li>
+      <li>
+         <span class="numero">8</span>
+<a data-back-id="5058420:article:eyJ0aXRyZSI6IkFwclx1MDBlOHMgbFx1MjAxOWV4cGxvaXQgZGUgTGVpY2VzdGVyLCBSaXlhZCBNYWhyZXogc2Fjclx1MDBlOSBCYWxsb24gZFx1MjAxOW9yIGFmcmljYWluIn0=" href="/football/article/2017/01/06/apres-l-exploit-de-leicester-riyad-mahrez-sacre-ballon-d-or-africain_5058420_1616938.html" class="texte obf" data-vr-contentbox="">Après l’exploit de Leicester, Riyad Mahrez sacré Ballon d’or africain</a>         <span class="bulle_nombre">792</span>
+      </li>
+   </ul>
+   <div class="sociaux_suivre">
+    <h3 class="agauche">Suivez-nous</h3>
+    <p class="pictos">
+<a class="fb20x20 obf" href="http://www.facebook.com/lemonde.fr" target="_blank">Facebook</a>        <a class="tw20x20 obf" href="http://twitter.com/lemondefr" target="_blank">Twitter</a>        <a class="google20x20 obf" href="https://plus.google.com/+LeMondefr/posts" target="_blank">Google+</a>        <a class="instagram20x20 obf" href="https://instagram.com/lemondefr" target="_blank">Instagram</a>        <a class="mobile20x20" href="http://www.lemonde.fr/mobile/">Mobile</a>        <a class="rss20x20" href="http://www.lemonde.fr/rss/">RSS</a>    </p>
+</div>
+</div>
+
+    <div id="appel_jelec" class="bloc_je bloc_abonnes">
+   <p class="entete_abonnes_bg"><span class="ea109x13">Edition abonnés</span></p>
+      <h3 class="date_journal">Le journal daté du 6 janvier</h3>
+
+         <div class="previsu">
+      <div class="bloc_couvs bloc_pls_couv clearfix">
+   <a target="_blank" onclick="return xt_adc(this, 'Bloc_Vignette_Lire_Jelec', this.href, true );" href="http://www.lemonde.fr/journalelectronique/donnees/libre/20170106/index.html" class=" jelec_popup">
+         <img alt=" " src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="http://s1.lemde.fr/journalelectronique/vignettes/la_une/20170106/QUO_208_coupee.jpg" data-lazyload="true" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina" width="208" height="155">   </a>
+   <b class="croix_je"><hr><span>+</span></b>
+   <a target="_blank" onclick="return xt_adc(this, 'Bloc_Vignette_Lire_Jelec', this.href, true );" href="http://www.lemonde.fr/journalelectronique/donnees/libre/20170106/index.html?cahier=SCQ" class="couv_focus jelec_popup">
+         <img alt=" " src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="http://s1.lemde.fr/journalelectronique/vignettes/la_une/20170106/SCQ_104.jpg" data-lazyload="true" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina" width="104" height="155">   </a>
+   <a target="_blank" onclick="return xt_adc(this, 'Bloc_Vignette_Lire_Jelec', this.href, true );" href="http://www.lemonde.fr/journalelectronique/donnees/libre/20170106/index.html?cahier=LIV" class="couv_petite petite_1 jelec_popup">
+         <img alt=" " src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="http://s1.lemde.fr/journalelectronique/vignettes/la_une/20170106/LIV_125_coupee.jpg" data-lazyload="true" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina" width="125" height="93">   </a>
+   <a target="_blank" onclick="return xt_adc(this, 'Bloc_Vignette_Lire_Jelec', this.href, true );" href="http://www.lemonde.fr/journalelectronique/donnees/libre/20170106/index.html?cahier=DOS" class="couv_petite petite_2 jelec_popup">
+         <img alt=" " src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="http://s1.lemde.fr/journalelectronique/vignettes/la_une/20170106/DOS_125_coupee.jpg" data-lazyload="true" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina" width="125" height="93">   </a>
+</div>
+   </div>
+
+                     <p class="centrer mgb8">
+         <span>Lire <em>Le Monde</em> sur Web, iPad / iPhone, Android :</span>
+                      <a class="btn_abo mgt5" href="http://abo.lemonde.fr#xtor=CS1-263[BOUTONS_LMFR]-[JE]--[Home]" onclick="return xt_click(this, 'C', '', 'Abo::JE', 'N')">
+                     Abonnez-vous à partir de 1 €
+                 </a>      </p>
+</div>
+
+<script>
+require(['jquery', 'lmd/core/auth', 'lmd/core/metrics/ignition-one'], function ($, auth, ignition) {
+    'use strict';
+
+    if (auth.authenticated) {
+        auth.loadUser().done(function () {
+            if (auth.user.services.indexOf('jelec') !== -1) {
+                $('#pa_lire_cette_edition').show();
+                $('#pa_lire_articles_du_monde').remove();
+                $('#pa_lien_decouvrir').remove();
+            } else {
+                $('#pa_lire_cette_edition').remove();
+                $('#pa_lire_articles_du_monde').show();
+                $('#pa_lien_decouvrir').show();
+            }
+        });
+    }
+
+    // Comptage Ignition One
+    $('.previsu a, .titres_journal img').on('click', function () {
+        ignition.triggerAction('jelec');
+    });
+});
+</script>
+
+
+
+    <div id="dfp-pave_milieu" class="dfp_slot" data-format="pave_milieu"></div>
+
+      </div>
+   </div><!--/conteneur 18-->
+
+</div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		</div>
+			
+			
+			
+			
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
